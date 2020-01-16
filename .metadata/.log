@@ -1340,3 +1340,304 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 16:33:04.221
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.gZerjkaC => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 16:45:59.655
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.JyRcnqJY
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 16:45:59.656
+!MESSAGE subscribing to classpath changes: sts4.classpath.JyRcnqJY
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 16:45:59.657
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 16:45:59.658
+!MESSAGE subsribers = [sts4.classpath.JyRcnqJY]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 16:45:59.659
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 16:45:59.736
+!MESSAGE project PhotoAppUsersAPI ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 16:45:59.736
+!MESSAGE project PhotoAppAccountManageAPI ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 16:45:59.736
+!MESSAGE Preparing classpath changed notification PhotoAppUsersAPI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 16:45:59.737
+!MESSAGE project PhotoAppEurekaDiscovery ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 16:45:59.737
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 16:45:59.737
+!MESSAGE project PhotoAppZuulAPIGateway ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 16:45:59.738
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 16:45:59.739
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.JyRcnqJY => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 16:45:59.741
+!MESSAGE classpath=160 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 16:45:59.742
+!MESSAGE executing callback sts4.classpath.JyRcnqJY PhotoAppUsersAPI false 160
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 16:45:59.843
+!MESSAGE executing callback sts4.classpath.JyRcnqJY SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 16:45:59.844
+!MESSAGE Preparing classpath changed notification PhotoAppZuulAPIGateway
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 16:45:59.844
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 16:45:59.849
+!MESSAGE classpath=176 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 16:45:59.850
+!MESSAGE executing callback sts4.classpath.JyRcnqJY PhotoAppZuulAPIGateway false 176
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 16:45:59.875
+!MESSAGE executing callback sts4.classpath.JyRcnqJY SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 16:45:59.875
+!MESSAGE Preparing classpath changed notification PhotoAppEurekaDiscovery
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 16:45:59.876
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 16:45:59.881
+!MESSAGE classpath=177 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 16:45:59.881
+!MESSAGE executing callback sts4.classpath.JyRcnqJY PhotoAppEurekaDiscovery false 177
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 16:45:59.901
+!MESSAGE executing callback sts4.classpath.JyRcnqJY SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 16:45:59.902
+!MESSAGE Preparing classpath changed notification PhotoAppAccountManageAPI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 16:45:59.902
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 16:45:59.907
+!MESSAGE classpath=160 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 16:45:59.907
+!MESSAGE executing callback sts4.classpath.JyRcnqJY PhotoAppAccountManageAPI false 160
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 16:45:59.938
+!MESSAGE executing callback sts4.classpath.JyRcnqJY SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:48.017
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.JyRcnqJY
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:48.018
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.JyRcnqJY
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:48.018
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:48.018
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.JyRcnqJY => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:52.766
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ZocddFRd
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:52.767
+!MESSAGE subscribing to classpath changes: sts4.classpath.ZocddFRd
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:52.767
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:52.767
+!MESSAGE subsribers = [sts4.classpath.ZocddFRd]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:52.768
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:52.899
+!MESSAGE project PhotoAppUsersAPI ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:52.899
+!MESSAGE project PhotoAppAccountManageAPI ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:52.900
+!MESSAGE Preparing classpath changed notification PhotoAppUsersAPI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:52.900
+!MESSAGE project PhotoAppEurekaDiscovery ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:52.900
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:52.900
+!MESSAGE project PhotoAppZuulAPIGateway ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:52.901
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:52.901
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ZocddFRd => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:52.903
+!MESSAGE classpath=160 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:52.904
+!MESSAGE executing callback sts4.classpath.ZocddFRd PhotoAppUsersAPI false 160
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:52.986
+!MESSAGE executing callback sts4.classpath.ZocddFRd SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:52.987
+!MESSAGE Preparing classpath changed notification PhotoAppZuulAPIGateway
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:52.987
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:52.998
+!MESSAGE classpath=176 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:52.999
+!MESSAGE executing callback sts4.classpath.ZocddFRd PhotoAppZuulAPIGateway false 176
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:53.029
+!MESSAGE executing callback sts4.classpath.ZocddFRd SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:53.029
+!MESSAGE Preparing classpath changed notification PhotoAppEurekaDiscovery
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:53.030
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:53.036
+!MESSAGE classpath=177 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:53.036
+!MESSAGE executing callback sts4.classpath.ZocddFRd PhotoAppEurekaDiscovery false 177
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:53.055
+!MESSAGE executing callback sts4.classpath.ZocddFRd SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:53.055
+!MESSAGE Preparing classpath changed notification PhotoAppAccountManageAPI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:53.056
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:53.060
+!MESSAGE classpath=160 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:53.060
+!MESSAGE executing callback sts4.classpath.ZocddFRd PhotoAppAccountManageAPI false 160
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-15 17:56:53.086
+!MESSAGE executing callback sts4.classpath.ZocddFRd SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 4 0 2020-01-16 00:44:56.706
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2022)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:168)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo(SpringBootJavaHoverProvider.java:35)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:173)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 01:37:45.342
+!MESSAGE Preparing classpath changed notification PhotoAppUsersAPI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 01:37:45.350
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 01:37:45.354
+!MESSAGE classpath=181 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 01:37:45.355
+!MESSAGE executing callback sts4.classpath.ZocddFRd PhotoAppUsersAPI false 181
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 01:37:45.401
+!MESSAGE executing callback sts4.classpath.ZocddFRd SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 01:37:47.956
+!MESSAGE Preparing classpath changed notification PhotoAppUsersAPI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 01:37:47.957
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 01:37:47.961
+!MESSAGE classpath=181 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 01:37:47.961
+!MESSAGE executing callback sts4.classpath.ZocddFRd PhotoAppUsersAPI false 181
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 01:37:47.968
+!MESSAGE executing callback sts4.classpath.ZocddFRd SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 02:38:56.682
+!MESSAGE Preparing classpath changed notification PhotoAppUsersAPI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 02:38:56.690
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 02:38:56.695
+!MESSAGE classpath=183 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 02:38:56.696
+!MESSAGE executing callback sts4.classpath.ZocddFRd PhotoAppUsersAPI false 183
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 02:38:56.725
+!MESSAGE executing callback sts4.classpath.ZocddFRd SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 02:38:58.789
+!MESSAGE Preparing classpath changed notification PhotoAppUsersAPI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 02:38:58.797
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 02:38:58.810
+!MESSAGE classpath=183 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 02:38:58.823
+!MESSAGE executing callback sts4.classpath.ZocddFRd PhotoAppUsersAPI false 183
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 02:38:58.829
+!MESSAGE executing callback sts4.classpath.ZocddFRd SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 03:17:35.994
+!MESSAGE Preparing classpath changed notification PhotoAppUsersAPI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 03:17:35.994
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 03:17:35.998
+!MESSAGE classpath=187 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 03:17:35.999
+!MESSAGE executing callback sts4.classpath.ZocddFRd PhotoAppUsersAPI false 187
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 03:17:36.012
+!MESSAGE executing callback sts4.classpath.ZocddFRd SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 03:17:38.038
+!MESSAGE Preparing classpath changed notification PhotoAppUsersAPI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 03:17:38.039
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 03:17:38.046
+!MESSAGE classpath=187 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 03:17:38.047
+!MESSAGE executing callback sts4.classpath.ZocddFRd PhotoAppUsersAPI false 187
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 03:17:38.063
+!MESSAGE executing callback sts4.classpath.ZocddFRd SUCCESS [done]

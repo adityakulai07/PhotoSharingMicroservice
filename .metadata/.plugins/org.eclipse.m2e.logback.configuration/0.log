@@ -3010,3 +3010,29 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2020-01-16 04:11:50,752 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2020-01-16 04:11:50,754 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-01-16 04:11:50,754 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adityakulai/Documents/workspace-spring-tool-suite-4-4.0.1.RELEASE/PhotoMicroservice/PhotoAppUsersAPI/src/test/resources
+2020-01-16 04:20:58,643 [Worker-125: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.adityaprojects.photoapp.api.users:PhotoAppUsersAPI:0.0.1-SNAPSHOT @ /Users/adityakulai/Documents/workspace-spring-tool-suite-4-4.0.1.RELEASE/PhotoMicroservice/PhotoAppUsersAPI/pom.xml.
+2020-01-16 04:20:59,488 [Worker-125: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.0.2/woodstox-core-6.0.2.jar
+2020-01-16 04:20:59,662 [Worker-125: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.0.2/woodstox-core-6.0.2.jar
+2020-01-16 04:20:59,791 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-16 04:20:59,791 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 04:20:59,792 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 04:20:59,794 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-16 04:20:59,794 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adityakulai/Documents/workspace-spring-tool-suite-4-4.0.1.RELEASE/PhotoMicroservice/PhotoAppUsersAPI/src/test/resources
+2020-01-16 04:21:01,273 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-16 04:21:01,274 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-16 04:21:01,275 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 04:21:01,276 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-16 04:21:01,276 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adityakulai/Documents/workspace-spring-tool-suite-4-4.0.1.RELEASE/PhotoMicroservice/PhotoAppUsersAPI/src/test/resources
+2020-01-16 04:21:01,398 [Worker-108: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.0.2/woodstox-core-6.0.2-sources.jar
+2020-01-16 04:21:01,510 [Worker-108: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.0.2/woodstox-core-6.0.2-sources.jar
+2020-01-16 04:21:01,527 [Worker-108: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.woodstox:woodstox-core:6.0.2
+2020-01-16 04:21:02,348 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-16 04:21:02,349 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 04:21:02,349 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 04:21:02,351 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-16 04:21:02,351 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adityakulai/Documents/workspace-spring-tool-suite-4-4.0.1.RELEASE/PhotoMicroservice/PhotoAppUsersAPI/src/test/resources
+2020-01-16 04:24:04,896 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-16 04:24:04,897 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-16 04:24:04,898 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 04:24:04,899 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-16 04:24:04,899 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/adityakulai/Documents/workspace-spring-tool-suite-4-4.0.1.RELEASE/PhotoMicroservice/PhotoAppUsersAPI/src/test/resources

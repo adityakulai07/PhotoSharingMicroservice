@@ -1641,3 +1641,33 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 03:17:38.063
 !MESSAGE executing callback sts4.classpath.ZocddFRd SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 04:20:59.878
+!MESSAGE Preparing classpath changed notification PhotoAppUsersAPI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 04:20:59.879
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 04:20:59.883
+!MESSAGE classpath=189 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 04:20:59.883
+!MESSAGE executing callback sts4.classpath.ZocddFRd PhotoAppUsersAPI false 189
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 04:20:59.901
+!MESSAGE executing callback sts4.classpath.ZocddFRd SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 04:21:01.640
+!MESSAGE Preparing classpath changed notification PhotoAppUsersAPI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 04:21:01.641
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 04:21:01.645
+!MESSAGE classpath=189 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 04:21:01.645
+!MESSAGE executing callback sts4.classpath.ZocddFRd PhotoAppUsersAPI false 189
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-16 04:21:01.654
+!MESSAGE executing callback sts4.classpath.ZocddFRd SUCCESS [done]

@@ -1,0 +1,13 @@
+package com.adityaprojects.photoapp.api.account;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class PhotoAppAccountManageApiApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(PhotoAppAccountManageApiApplication.class, args);
+	}
+
+}

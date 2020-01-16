@@ -1,0 +1,5 @@
+package com.adityaprojects.photoapp.api.account.ui.controllers;
+
+public class AccountController {
+
+}

@@ -3741,3 +3741,180 @@ Caused by: java.util.concurrent.CancellationException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:14.800
 !MESSAGE executing callback sts4.classpath.CPDIYTyF SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:47:46.736
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.CPDIYTyF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:47:46.738
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.CPDIYTyF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:47:46.738
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:47:46.739
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.CPDIYTyF => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:03.762
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.rDKBHTlh
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:03.766
+!MESSAGE subscribing to classpath changes: sts4.classpath.rDKBHTlh
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:03.767
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:03.768
+!MESSAGE subsribers = [sts4.classpath.rDKBHTlh]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:03.768
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:03.819
+!MESSAGE project PhotoAppContentService ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:03.820
+!MESSAGE project PhotoAppAPIConfigServer ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:03.821
+!MESSAGE Preparing classpath changed notification PhotoAppContentService
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:03.821
+!MESSAGE project PhotoAppAccountManageAPI ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:03.821
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:03.822
+!MESSAGE project PhotoAppAlbumsService ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:03.824
+!MESSAGE project PhotoAppEurekaDiscovery ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:03.825
+!MESSAGE project PhotoAppUploaderService ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:03.826
+!MESSAGE project PhotoAppUsersAPI ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:03.829
+!MESSAGE project PhotoAppZuulAPIGateway ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:03.830
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:03.831
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.rDKBHTlh => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:03.910
+!MESSAGE classpath=160 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:03.911
+!MESSAGE executing callback sts4.classpath.rDKBHTlh PhotoAppContentService false 160
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:04.594
+!MESSAGE executing callback sts4.classpath.rDKBHTlh SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:04.594
+!MESSAGE Preparing classpath changed notification PhotoAppZuulAPIGateway
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:04.595
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:04.619
+!MESSAGE classpath=183 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:04.620
+!MESSAGE executing callback sts4.classpath.rDKBHTlh PhotoAppZuulAPIGateway false 183
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:06.303
+!MESSAGE executing callback sts4.classpath.rDKBHTlh SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:06.304
+!MESSAGE Preparing classpath changed notification PhotoAppUsersAPI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:06.304
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:06.319
+!MESSAGE classpath=192 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:06.319
+!MESSAGE executing callback sts4.classpath.rDKBHTlh PhotoAppUsersAPI false 192
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:06.362
+!MESSAGE executing callback sts4.classpath.rDKBHTlh SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:06.363
+!MESSAGE Preparing classpath changed notification PhotoAppUploaderService
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:06.363
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:06.367
+!MESSAGE classpath=160 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:06.368
+!MESSAGE executing callback sts4.classpath.rDKBHTlh PhotoAppUploaderService false 160
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:06.406
+!MESSAGE executing callback sts4.classpath.rDKBHTlh SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:06.406
+!MESSAGE Preparing classpath changed notification PhotoAppEurekaDiscovery
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:06.407
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:06.414
+!MESSAGE classpath=177 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:06.415
+!MESSAGE executing callback sts4.classpath.rDKBHTlh PhotoAppEurekaDiscovery false 177
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:06.432
+!MESSAGE executing callback sts4.classpath.rDKBHTlh SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:06.433
+!MESSAGE Preparing classpath changed notification PhotoAppAlbumsService
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:06.433
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:06.442
+!MESSAGE classpath=170 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:06.442
+!MESSAGE executing callback sts4.classpath.rDKBHTlh PhotoAppAlbumsService false 170
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:06.456
+!MESSAGE executing callback sts4.classpath.rDKBHTlh SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:06.457
+!MESSAGE Preparing classpath changed notification PhotoAppAccountManageAPI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:06.458
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:06.462
+!MESSAGE classpath=160 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:06.463
+!MESSAGE executing callback sts4.classpath.rDKBHTlh PhotoAppAccountManageAPI false 160
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:06.506
+!MESSAGE executing callback sts4.classpath.rDKBHTlh SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:06.507
+!MESSAGE Preparing classpath changed notification PhotoAppAPIConfigServer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:06.507
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:06.515
+!MESSAGE classpath=110 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:06.515
+!MESSAGE executing callback sts4.classpath.rDKBHTlh PhotoAppAPIConfigServer false 110
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:51:06.545
+!MESSAGE executing callback sts4.classpath.rDKBHTlh SUCCESS [done]

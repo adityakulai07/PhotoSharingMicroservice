@@ -3525,3 +3525,219 @@ org.eclipse.swt.SWTException: Widget is disposed
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:19:11.942
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ROdwmIWv => OK
+
+!ENTRY org.eclipse.lsp4e 4 0 2020-01-22 20:23:59.864
+!MESSAGE java.util.concurrent.CancellationException
+!STACK 0
+java.util.concurrent.ExecutionException: java.util.concurrent.CancellationException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2022)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilities(LanguageServerWrapper.java:563)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$8(LanguageServiceAccessor.java:372)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:176)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1603)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getMatchingStartedWrappers(LanguageServiceAccessor.java:374)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:284)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSPDocumentInfosFor(LanguageServiceAccessor.java:444)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$1.run(ConnectDocumentToLanguageServerSetupParticipant.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.util.concurrent.CancellationException
+	at java.base/java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2396)
+	at org.eclipse.lsp4e.LanguageServerWrapper.stop(LanguageServerWrapper.java:322)
+	at org.eclipse.lsp4e.LanguageServerWrapper.disconnect(LanguageServerWrapper.java:478)
+	at org.eclipse.lsp4e.LanguageServerWrapper$1.bufferDisposed(LanguageServerWrapper.java:117)
+	at org.eclipse.core.internal.filebuffers.TextFileBufferManager$12.run(TextFileBufferManager.java:789)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.filebuffers.TextFileBufferManager.fireBufferDisposed(TextFileBufferManager.java:786)
+	at org.eclipse.core.internal.filebuffers.TextFileBufferManager.disconnect(TextFileBufferManager.java:206)
+	at org.eclipse.jdt.internal.ui.javaeditor.DocumentAdapter.close(DocumentAdapter.java:382)
+	at org.eclipse.jdt.internal.core.Openable.closeBuffer(Openable.java:94)
+	at org.eclipse.jdt.internal.core.Openable.closing(Openable.java:103)
+	at org.eclipse.jdt.internal.core.CompilationUnit.closing(CompilationUnit.java:255)
+	at org.eclipse.jdt.internal.core.JavaModelManager.removeInfoAndChildren(JavaModelManager.java:4281)
+	at org.eclipse.jdt.internal.core.JavaModelManager.discardPerWorkingCopyInfo(JavaModelManager.java:2039)
+	at org.eclipse.jdt.internal.core.DiscardWorkingCopyOperation.executeOperation(DiscardWorkingCopyOperation.java:38)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.discardWorkingCopy(CompilationUnit.java:513)
+	at org.eclipse.jdt.ui.wizards.NewTypeWizardPage.createType(NewTypeWizardPage.java:2274)
+	at org.eclipse.jdt.internal.ui.wizards.NewClassCreationWizard.finishPage(NewClassCreationWizard.java:68)
+	at org.eclipse.jdt.internal.ui.wizards.NewElementWizard$2.run(NewElementWizard.java:123)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2319)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5736)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:11.387
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.CPDIYTyF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:11.387
+!MESSAGE subscribing to classpath changes: sts4.classpath.CPDIYTyF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:11.388
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:11.388
+!MESSAGE subsribers = [sts4.classpath.CPDIYTyF]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:11.389
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:11.390
+!MESSAGE project PhotoAppAlbumsService ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:11.390
+!MESSAGE Preparing classpath changed notification PhotoAppAlbumsService
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:11.391
+!MESSAGE project PhotoAppUsersAPI ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:11.391
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:11.391
+!MESSAGE project PhotoAppAPIConfigServer ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:11.392
+!MESSAGE project PhotoAppAccountManageAPI ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:11.392
+!MESSAGE project PhotoAppContentService ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:11.393
+!MESSAGE project PhotoAppEurekaDiscovery ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:11.393
+!MESSAGE project PhotoAppUploaderService ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:11.394
+!MESSAGE project PhotoAppZuulAPIGateway ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:11.395
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:11.395
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.CPDIYTyF => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:11.396
+!MESSAGE classpath=170 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:11.397
+!MESSAGE executing callback sts4.classpath.CPDIYTyF PhotoAppAlbumsService false 170
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:13.342
+!MESSAGE executing callback sts4.classpath.CPDIYTyF SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:13.343
+!MESSAGE Preparing classpath changed notification PhotoAppZuulAPIGateway
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:13.344
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:13.349
+!MESSAGE classpath=183 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:13.350
+!MESSAGE executing callback sts4.classpath.CPDIYTyF PhotoAppZuulAPIGateway false 183
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:14.582
+!MESSAGE executing callback sts4.classpath.CPDIYTyF SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:14.583
+!MESSAGE Preparing classpath changed notification PhotoAppUploaderService
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:14.583
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:14.588
+!MESSAGE classpath=160 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:14.589
+!MESSAGE executing callback sts4.classpath.CPDIYTyF PhotoAppUploaderService false 160
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:14.621
+!MESSAGE executing callback sts4.classpath.CPDIYTyF SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:14.621
+!MESSAGE Preparing classpath changed notification PhotoAppEurekaDiscovery
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:14.622
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:14.627
+!MESSAGE classpath=177 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:14.628
+!MESSAGE executing callback sts4.classpath.CPDIYTyF PhotoAppEurekaDiscovery false 177
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:14.660
+!MESSAGE executing callback sts4.classpath.CPDIYTyF SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:14.660
+!MESSAGE Preparing classpath changed notification PhotoAppContentService
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:14.661
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:14.665
+!MESSAGE classpath=160 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:14.666
+!MESSAGE executing callback sts4.classpath.CPDIYTyF PhotoAppContentService false 160
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:14.688
+!MESSAGE executing callback sts4.classpath.CPDIYTyF SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:14.689
+!MESSAGE Preparing classpath changed notification PhotoAppAccountManageAPI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:14.690
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:14.695
+!MESSAGE classpath=160 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:14.696
+!MESSAGE executing callback sts4.classpath.CPDIYTyF PhotoAppAccountManageAPI false 160
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:14.713
+!MESSAGE executing callback sts4.classpath.CPDIYTyF SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:14.714
+!MESSAGE Preparing classpath changed notification PhotoAppAPIConfigServer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:14.714
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:14.719
+!MESSAGE classpath=110 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:14.719
+!MESSAGE executing callback sts4.classpath.CPDIYTyF PhotoAppAPIConfigServer false 110
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:14.739
+!MESSAGE executing callback sts4.classpath.CPDIYTyF SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:14.739
+!MESSAGE Preparing classpath changed notification PhotoAppUsersAPI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:14.740
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:14.746
+!MESSAGE classpath=192 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:14.746
+!MESSAGE executing callback sts4.classpath.CPDIYTyF PhotoAppUsersAPI false 192
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:24:14.800
+!MESSAGE executing callback sts4.classpath.CPDIYTyF SUCCESS [done]

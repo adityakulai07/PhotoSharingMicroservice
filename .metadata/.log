@@ -2729,3 +2729,284 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:55:07.876
+!MESSAGE Preparing classpath changed notification PhotoAppAPIConfigServer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:55:07.879
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:55:07.880
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:55:07.881
+!MESSAGE executing callback sts4.classpath.YOPxnfCM PhotoAppAPIConfigServer false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:55:09.883
+!MESSAGE executing callback sts4.classpath.YOPxnfCM FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2020-01-20 03:55:09.883
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1886)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:179)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:55:09.884
+!MESSAGE Preparing classpath changed notification PhotoAppAPIConfigServer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:55:09.885
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:55:09.887
+!MESSAGE classpath=110 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:55:09.888
+!MESSAGE executing callback sts4.classpath.YOPxnfCM PhotoAppAPIConfigServer false 110
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:55:11.095
+!MESSAGE executing callback sts4.classpath.YOPxnfCM SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:55:11.096
+!MESSAGE Preparing classpath changed notification PhotoAppAPIConfigServer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:55:11.097
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:55:11.100
+!MESSAGE classpath=110 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:55:11.100
+!MESSAGE executing callback sts4.classpath.YOPxnfCM PhotoAppAPIConfigServer false 110
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:55:11.121
+!MESSAGE executing callback sts4.classpath.YOPxnfCM SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:55:15.018
+!MESSAGE Preparing classpath changed notification PhotoAppAPIConfigServer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:55:15.019
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:55:15.023
+!MESSAGE classpath=110 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:55:15.024
+!MESSAGE executing callback sts4.classpath.YOPxnfCM PhotoAppAPIConfigServer false 110
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:55:15.139
+!MESSAGE executing callback sts4.classpath.YOPxnfCM SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:55:19.114
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.YOPxnfCM
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:55:19.114
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.YOPxnfCM
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:55:19.114
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:55:19.114
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.YOPxnfCM => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:54.304
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.gZWfgVkw
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:54.305
+!MESSAGE subscribing to classpath changes: sts4.classpath.gZWfgVkw
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:54.306
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:54.306
+!MESSAGE subsribers = [sts4.classpath.gZWfgVkw]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:54.306
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:54.317
+!MESSAGE project PhotoAppAPIConfigServer ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:54.318
+!MESSAGE Preparing classpath changed notification PhotoAppAPIConfigServer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:54.318
+!MESSAGE project PhotoAppAccountManageAPI ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:54.319
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:54.319
+!MESSAGE project PhotoAppEurekaDiscovery ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:54.319
+!MESSAGE project PhotoAppUsersAPI ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:54.320
+!MESSAGE project PhotoAppZuulAPIGateway ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:54.320
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:54.321
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.gZWfgVkw => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:54.328
+!MESSAGE classpath=110 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:54.328
+!MESSAGE executing callback sts4.classpath.gZWfgVkw PhotoAppAPIConfigServer false 110
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:54.985
+!MESSAGE executing callback sts4.classpath.gZWfgVkw SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:54.986
+!MESSAGE Preparing classpath changed notification PhotoAppZuulAPIGateway
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:54.987
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:55.024
+!MESSAGE classpath=181 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:55.025
+!MESSAGE executing callback sts4.classpath.gZWfgVkw PhotoAppZuulAPIGateway false 181
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:56.643
+!MESSAGE executing callback sts4.classpath.gZWfgVkw SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:56.643
+!MESSAGE Preparing classpath changed notification PhotoAppUsersAPI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:56.644
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:56.657
+!MESSAGE classpath=190 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:56.658
+!MESSAGE executing callback sts4.classpath.gZWfgVkw PhotoAppUsersAPI false 190
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:56.706
+!MESSAGE executing callback sts4.classpath.gZWfgVkw SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:56.707
+!MESSAGE Preparing classpath changed notification PhotoAppEurekaDiscovery
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:56.708
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:56.713
+!MESSAGE classpath=177 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:56.713
+!MESSAGE executing callback sts4.classpath.gZWfgVkw PhotoAppEurekaDiscovery false 177
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:56.927
+!MESSAGE executing callback sts4.classpath.gZWfgVkw SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:56.928
+!MESSAGE Preparing classpath changed notification PhotoAppAccountManageAPI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:56.928
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:56.932
+!MESSAGE classpath=160 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:56.932
+!MESSAGE executing callback sts4.classpath.gZWfgVkw PhotoAppAccountManageAPI false 160
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-20 03:59:56.964
+!MESSAGE executing callback sts4.classpath.gZWfgVkw SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 18:55:41.097
+!MESSAGE Preparing classpath changed notification PhotoAppUsersAPI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 18:55:41.098
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 18:55:41.102
+!MESSAGE classpath=192 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 18:55:41.102
+!MESSAGE executing callback sts4.classpath.gZWfgVkw PhotoAppUsersAPI false 192
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 18:55:41.168
+!MESSAGE executing callback sts4.classpath.gZWfgVkw SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-01-22 18:55:43.268
+!MESSAGE Could not download sources for org.springframework.cloud:spring-cloud-starter-config:2.2.1.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-config:jar:sources:2.2.1.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter-config:jar:sources:2.2.1.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2020-01-22 18:55:43.269
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-config:jar:sources:2.2.1.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2020-01-22 18:55:43.269
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-config:jar:sources:2.2.1.RELEASE
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-01-22 19:02:33.105
+!MESSAGE Could not download javadoc for org.springframework.cloud:spring-cloud-starter-config:2.2.1.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-config:jar:javadoc:2.2.1.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter-config:jar:javadoc:2.2.1.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2020-01-22 19:02:33.106
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-config:jar:javadoc:2.2.1.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2020-01-22 19:02:33.106
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-config:jar:javadoc:2.2.1.RELEASE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:03:50.433
+!MESSAGE Preparing classpath changed notification PhotoAppZuulAPIGateway
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:03:50.435
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:03:50.439
+!MESSAGE classpath=183 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:03:50.440
+!MESSAGE executing callback sts4.classpath.gZWfgVkw PhotoAppZuulAPIGateway false 183
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:03:50.517
+!MESSAGE executing callback sts4.classpath.gZWfgVkw SUCCESS [done]

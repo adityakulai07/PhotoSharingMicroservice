@@ -3010,3 +3010,518 @@ Contains: Missing org.springframework.cloud:spring-cloud-starter-config:jar:java
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:03:50.517
 !MESSAGE executing callback sts4.classpath.gZWfgVkw SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:33:22.948
+!MESSAGE Preparing classpath changed notification PhotoAppUploaderService
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:33:22.949
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:33:22.951
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:33:22.951
+!MESSAGE executing callback sts4.classpath.gZWfgVkw PhotoAppUploaderService false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:33:24.952
+!MESSAGE executing callback sts4.classpath.gZWfgVkw FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2020-01-22 19:33:24.953
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1886)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:179)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:33:24.953
+!MESSAGE Preparing classpath changed notification PhotoAppUploaderService
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:33:24.954
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:33:24.958
+!MESSAGE classpath=159 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:33:24.958
+!MESSAGE executing callback sts4.classpath.gZWfgVkw PhotoAppUploaderService false 159
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:33:26.965
+!MESSAGE executing callback sts4.classpath.gZWfgVkw FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2020-01-22 19:33:26.965
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1886)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:179)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:33:26.966
+!MESSAGE Preparing classpath changed notification PhotoAppUploaderService
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:33:26.967
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:33:26.971
+!MESSAGE classpath=159 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:33:26.972
+!MESSAGE executing callback sts4.classpath.gZWfgVkw PhotoAppUploaderService false 159
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:33:27.522
+!MESSAGE executing callback sts4.classpath.gZWfgVkw SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:33:27.523
+!MESSAGE Preparing classpath changed notification PhotoAppUploaderService
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:33:27.523
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:33:27.530
+!MESSAGE classpath=159 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:33:27.531
+!MESSAGE executing callback sts4.classpath.gZWfgVkw PhotoAppUploaderService false 159
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:33:27.540
+!MESSAGE executing callback sts4.classpath.gZWfgVkw SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:33:37.751
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.gZWfgVkw
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:33:37.752
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.gZWfgVkw
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:33:37.752
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 19:33:37.753
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.gZWfgVkw => OK
+
+!ENTRY org.eclipse.ui 4 0 2020-01-22 20:11:50.806
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:810)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:596)
+	at org.eclipse.swt.widgets.Composite.layout(Composite.java:739)
+	at org.springsource.ide.eclipse.commons.livexp.ui.util.ReflowUtil.reflowParents(ReflowUtil.java:57)
+	at org.springsource.ide.eclipse.commons.livexp.ui.ReflowableSection.reflow(ReflowableSection.java:38)
+	at org.springframework.ide.eclipse.boot.wizard.SelectedSection.applyFilter(SelectedSection.java:97)
+	at org.springframework.ide.eclipse.boot.wizard.SelectedDependenciesSection.onFilter(SelectedDependenciesSection.java:68)
+	at org.springframework.ide.eclipse.boot.wizard.SelectedDependenciesSection.lambda$0(SelectedDependenciesSection.java:62)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:116)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:73)
+	at org.springframework.ide.eclipse.boot.wizard.SelectedDependenciesSection.lambda$1(SelectedDependenciesSection.java:97)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:116)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:73)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.wizard.CheckBoxesSection$CheckBox$2.handleSelection(CheckBoxesSection.java:183)
+	at org.springframework.ide.eclipse.boot.wizard.CheckBoxesSection$CheckBox$2.widgetSelected(CheckBoxesSection.java:174)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4292)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4116)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3733)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:821)
+	at org.eclipse.jface.window.Window.open(Window.java:797)
+	at org.eclipse.ui.actions.NewProjectAction.run(NewProjectAction.java:118)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:476)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:400)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4292)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4116)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3733)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.ui 4 0 2020-01-22 20:11:52.526
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:810)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:596)
+	at org.eclipse.swt.widgets.Composite.layout(Composite.java:739)
+	at org.springsource.ide.eclipse.commons.livexp.ui.util.ReflowUtil.reflowParents(ReflowUtil.java:57)
+	at org.springsource.ide.eclipse.commons.livexp.ui.ReflowableSection.reflow(ReflowableSection.java:38)
+	at org.springframework.ide.eclipse.boot.wizard.SelectedSection.applyFilter(SelectedSection.java:97)
+	at org.springframework.ide.eclipse.boot.wizard.SelectedDependenciesSection.onFilter(SelectedDependenciesSection.java:68)
+	at org.springframework.ide.eclipse.boot.wizard.SelectedDependenciesSection.lambda$0(SelectedDependenciesSection.java:62)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:116)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:73)
+	at org.springframework.ide.eclipse.boot.wizard.SelectedDependenciesSection.lambda$1(SelectedDependenciesSection.java:97)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:116)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:73)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.wizard.CheckBoxesSection$CheckBox$2.handleSelection(CheckBoxesSection.java:183)
+	at org.springframework.ide.eclipse.boot.wizard.CheckBoxesSection$CheckBox$2.widgetSelected(CheckBoxesSection.java:174)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4292)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4116)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3733)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:821)
+	at org.eclipse.jface.window.Window.open(Window.java:797)
+	at org.eclipse.ui.actions.NewProjectAction.run(NewProjectAction.java:118)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:476)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:400)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4292)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4116)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3733)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.ui 4 0 2020-01-22 20:11:55.077
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:810)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:596)
+	at org.eclipse.swt.widgets.Composite.layout(Composite.java:739)
+	at org.springsource.ide.eclipse.commons.livexp.ui.util.ReflowUtil.reflowParents(ReflowUtil.java:57)
+	at org.springsource.ide.eclipse.commons.livexp.ui.ReflowableSection.reflow(ReflowableSection.java:38)
+	at org.springframework.ide.eclipse.boot.wizard.SelectedSection.applyFilter(SelectedSection.java:97)
+	at org.springframework.ide.eclipse.boot.wizard.SelectedDependenciesSection.onFilter(SelectedDependenciesSection.java:68)
+	at org.springframework.ide.eclipse.boot.wizard.SelectedDependenciesSection.lambda$0(SelectedDependenciesSection.java:62)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:116)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:73)
+	at org.springframework.ide.eclipse.boot.wizard.SelectedDependenciesSection.lambda$1(SelectedDependenciesSection.java:97)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:116)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:73)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.wizard.CheckBoxesSection$CheckBox$2.handleSelection(CheckBoxesSection.java:183)
+	at org.springframework.ide.eclipse.boot.wizard.CheckBoxesSection$CheckBox$2.widgetSelected(CheckBoxesSection.java:174)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4292)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4116)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3733)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:821)
+	at org.eclipse.jface.window.Window.open(Window.java:797)
+	at org.eclipse.ui.actions.NewProjectAction.run(NewProjectAction.java:118)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:476)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:400)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4292)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4116)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3733)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:35.629
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ROdwmIWv
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:35.635
+!MESSAGE subscribing to classpath changes: sts4.classpath.ROdwmIWv
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:35.635
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:35.636
+!MESSAGE subsribers = [sts4.classpath.ROdwmIWv]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:35.636
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:35.896
+!MESSAGE project PhotoAppAlbumsService ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:35.896
+!MESSAGE Preparing classpath changed notification PhotoAppAlbumsService
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:35.897
+!MESSAGE project PhotoAppUsersAPI ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:35.897
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:35.900
+!MESSAGE project PhotoAppAPIConfigServer ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:35.900
+!MESSAGE project PhotoAppAccountManageAPI ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:35.901
+!MESSAGE project PhotoAppContentService ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:35.902
+!MESSAGE project PhotoAppEurekaDiscovery ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:35.905
+!MESSAGE project PhotoAppUploaderService ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:35.906
+!MESSAGE project PhotoAppZuulAPIGateway ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:35.906
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:35.907
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ROdwmIWv => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:35.913
+!MESSAGE classpath=170 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:35.914
+!MESSAGE executing callback sts4.classpath.ROdwmIWv PhotoAppAlbumsService false 170
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.008
+!MESSAGE executing callback sts4.classpath.ROdwmIWv SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.009
+!MESSAGE Preparing classpath changed notification PhotoAppZuulAPIGateway
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.009
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.017
+!MESSAGE classpath=183 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.018
+!MESSAGE executing callback sts4.classpath.ROdwmIWv PhotoAppZuulAPIGateway false 183
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.849
+!MESSAGE executing callback sts4.classpath.ROdwmIWv SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.850
+!MESSAGE Preparing classpath changed notification PhotoAppUploaderService
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.850
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.854
+!MESSAGE classpath=160 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.855
+!MESSAGE executing callback sts4.classpath.ROdwmIWv PhotoAppUploaderService false 160
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.890
+!MESSAGE executing callback sts4.classpath.ROdwmIWv SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.890
+!MESSAGE Preparing classpath changed notification PhotoAppEurekaDiscovery
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.891
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.895
+!MESSAGE classpath=177 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.896
+!MESSAGE executing callback sts4.classpath.ROdwmIWv PhotoAppEurekaDiscovery false 177
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.914
+!MESSAGE executing callback sts4.classpath.ROdwmIWv SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.914
+!MESSAGE Preparing classpath changed notification PhotoAppContentService
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.915
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.919
+!MESSAGE classpath=160 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.919
+!MESSAGE executing callback sts4.classpath.ROdwmIWv PhotoAppContentService false 160
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.930
+!MESSAGE executing callback sts4.classpath.ROdwmIWv SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.930
+!MESSAGE Preparing classpath changed notification PhotoAppAccountManageAPI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.931
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.935
+!MESSAGE classpath=160 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.935
+!MESSAGE executing callback sts4.classpath.ROdwmIWv PhotoAppAccountManageAPI false 160
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.946
+!MESSAGE executing callback sts4.classpath.ROdwmIWv SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.946
+!MESSAGE Preparing classpath changed notification PhotoAppAPIConfigServer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.947
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.951
+!MESSAGE classpath=110 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.951
+!MESSAGE executing callback sts4.classpath.ROdwmIWv PhotoAppAPIConfigServer false 110
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.962
+!MESSAGE executing callback sts4.classpath.ROdwmIWv SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.963
+!MESSAGE Preparing classpath changed notification PhotoAppUsersAPI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.963
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.968
+!MESSAGE classpath=192 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.968
+!MESSAGE executing callback sts4.classpath.ROdwmIWv PhotoAppUsersAPI false 192
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:13:36.985
+!MESSAGE executing callback sts4.classpath.ROdwmIWv SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:14:37.657
+!MESSAGE Preparing classpath changed notification PhotoAppAlbumsService
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:14:37.661
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:14:37.661
+!MESSAGE executing callback sts4.classpath.ROdwmIWv PhotoAppAlbumsService true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:14:37.684
+!MESSAGE executing callback sts4.classpath.ROdwmIWv SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:14:56.899
+!MESSAGE Preparing classpath changed notification PhotoAppAlbumsService
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:14:56.901
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:14:56.906
+!MESSAGE classpath=22 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:14:56.907
+!MESSAGE executing callback sts4.classpath.ROdwmIWv PhotoAppAlbumsService false 22
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:14:56.919
+!MESSAGE executing callback sts4.classpath.ROdwmIWv SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:14:59.592
+!MESSAGE Preparing classpath changed notification PhotoAppAlbumsService
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:14:59.593
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:14:59.600
+!MESSAGE classpath=170 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:14:59.601
+!MESSAGE executing callback sts4.classpath.ROdwmIWv PhotoAppAlbumsService false 170
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:14:59.626
+!MESSAGE executing callback sts4.classpath.ROdwmIWv SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:19:11.940
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ROdwmIWv
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:19:11.941
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ROdwmIWv
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:19:11.941
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-22 20:19:11.942
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ROdwmIWv => OK
